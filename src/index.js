@@ -9,6 +9,8 @@ import ReactDOM from 'react-dom/client';
 
 // Aqui importamos el index.css que le dara unos estilos a la pagina.
 import './index.css';
+
+// Aqui importamos el componente del archivo App.js.
 import App from './App';
 
 // Para mostrar lo que queramos en nuestra App, utilizaremos el div con id root, en el cual mostraremos todo.

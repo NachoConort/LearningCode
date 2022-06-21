@@ -1,3 +1,4 @@
+// Importamos el archivo App.css para darle estilo al contenido del componente App.
 import './App.css';
 
 // Este es un componente, lo sabemos porque el nombre de la funcion comienza con mayuscula.
