@@ -7,7 +7,8 @@ import React from 'react';
 function Testimonio () {
   // Dentro del return estara lo que queremos mostrar.
   return (
-    <div>
+    // Con className asignamos una clase.
+    <div className='testimonio-container'> 
       
     </div>
   )
