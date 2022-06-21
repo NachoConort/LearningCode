@@ -7,4 +7,6 @@ function Boton({ texto, esBotonClic, manejarClic }) {
       {texto}
     </button>
   )
-}
+};
+
+export default Boton;

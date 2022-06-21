@@ -10,6 +10,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // Aqui importamos el componente del archivo FirstSection.js.
 import FirstSection from './FirstSection'
+// Aqui importamos el componente del archivo SecondSection.js.
+import SecondSection from './components/SecondSection';
 // Para mostrar lo que queramos en nuestra App, utilizaremos el div con id root, en el cual mostraremos todo.
 // Obtenemos este div con document.getElementById.
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,5 +19,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <FirstSection />
+    <SecondSection />
   </React.StrictMode>
 );

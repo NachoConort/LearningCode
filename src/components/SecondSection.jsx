@@ -21,3 +21,5 @@ function SecondSection() {
     </div>
   )
 };
+
+export default SecondSection;
