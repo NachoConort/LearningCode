@@ -21,11 +21,11 @@ function SecondSection() {
         esBotonClic= {true} />
         <Boton 
         texto='Clic'
-        esBotonDeClic={true}
+        esBotonClic={true}
         manejarClic={manejarClic} />
         <Boton 
         texto='Reiniciar'
-        esBotonDeClic={false}
+        esBotonClic={false}
         manejarClic={restartContador} />
       </div>
     </div>
