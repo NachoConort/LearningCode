@@ -8,14 +8,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 // Aqui importamos el index.css que le dara unos estilos a la pagina.
 import './index.css';
-// Aqui importamos el componente del archivo App.js.
-import App from './App';
+// Aqui importamos el componente del archivo FirstSection.js.
+import FirstSection from './FirstSection'
 // Para mostrar lo que queramos en nuestra App, utilizaremos el div con id root, en el cual mostraremos todo.
 // Obtenemos este div con document.getElementById.
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // Ejecutamos root.render, y dentro lo que queremos mostrar.
 root.render(
   <React.StrictMode>
-    <App />
+    <FirstSection />
   </React.StrictMode>
 );

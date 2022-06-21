@@ -1,14 +1,14 @@
-// Importamos el archivo App.css para darle estilo al contenido del componente App.
-import './App.css';
+// Importamos el archivo FirstSection.css para darle estilo al contenido del componente FirstSection.
+import './FirstSection.css';
 // Importamos el componente Testimonio.
 import Testimonio from './components/Testimonio';
 // Este es un componente, lo sabemos porque el nombre de la funcion comienza con mayuscula.
 // Conceptualmente, los componentes son como las funciones de JavaScript. 
-function App() {
+function FirstSection() {
   return (
     // Dentro del div principal-container, usamos nuestro componente.
     // Podemos usarlo cuantas veces queramos, cambiando los props para diferenciarlos.
-    <div className="App">
+    <div className="first-section">
       <div className='principal-container'>
         <h1>Aprendiendo React</h1>
         <Testimonio 
@@ -37,4 +37,4 @@ function App() {
   );
 }
 // Exportamos el componente, para luego importarlo en otro archivo y poder utilizarlo alli.
-export default App;
+export default FirstSection;
