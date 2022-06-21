@@ -12,6 +12,7 @@ function Testimonio (props) {
     // Con className asignamos una clase.
     // Para utilizar codigo JavaScript, debemos utilizar llaves {}
     // Dentro de las llaves pasamos los props.
+    // Para utilizar una imagen necesitaremos require, o podemos importarla con import.
     <div className='testimonio-container'> 
       <img 
         className='testimonio-img'

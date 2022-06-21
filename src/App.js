@@ -7,6 +7,7 @@ import Testimonio from './components/Testimonio';
 function App() {
   return (
     // Dentro del div principal-container, usamos nuestro componente.
+    // Podemos usarlo cuantas veces queramos, cambiando los props para diferenciarlos.
     <div className="App">
       <div className='principal-container'>
         <h1>Aprendiendo React</h1>
@@ -17,7 +18,7 @@ function App() {
           charge='Ingeniera de Software'
           company='Spotify'
           testimonio='Ive always struggled with learning JavaScript. Ive taken many courses but freeCodeCamps course was the one which stuck. Studying JavaScript as well as data structures and algorithms on freeCodeCamp gave me the skills and confidence I needed to land my dream job as a software engineer at Spotify.'/>
-          <Testimonio
+        <Testimonio
           img='ShawnTest'
           name='Shawn Wang'
           country='Singapore'

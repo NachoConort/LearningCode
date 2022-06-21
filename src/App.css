@@ -9,25 +9,25 @@ html, body {
 }
 
 h1 {
-  max-width: 940px;
-  font-size: 2.5em;
-  font-family: Lato, sans-serif;
-  font-weight: 700;
-  line-height: 1.1;
+  max-width: 940px; /* Asignamos un ancho maximo para el titulo */
+  font-size: 2.5em; /* Le damos un tamaño a la letra relativo al contenedor */
+  font-family: Lato, sans-serif; /* Tipo de letra */
+  font-weight: 700; /* Peso de la letra(negrita) */
+  line-height: 1.1; /* Altura de la separacion de la linea */
   margin: 40px 0;
 }
 
 .App {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  display: flex; /* Definir la ubicacion de los elementos dentro del contenedor */
+  flex-wrap: wrap; /* Si un elemento toma todo el ancho el siguiente se ubica abajo */
+  align-items: center; /* Centrar los elementos verticalmente */
+  justify-content: center; /* Centrar los elementos horizontalmente */
+  text-align: center; /* Centrar el texto */
 }
 
 .principal-container {
   background-color: white; /* Seleccionamos un color de fondo para el contenedor principal */
-  min-height: 600px;
+  min-height: 600px; /* Asignamos una altura minima al contenedor */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
