@@ -15,10 +15,8 @@ function SecondSection() {
   return(
     <div className='second-section'>
       <div className='contenedor-contador'>
-        <Contador
-        texto= 'Clic' 
-        numClics={numClics}
-        esBotonClic= {true} />
+        <Contador 
+        numClics={numClics} />
         <Boton 
         texto='Clic'
         esBotonClic={true}
