@@ -1,5 +1,6 @@
 // Para crear una App de React, utilizamos el comando npx create-react-app nombre-app en la terminal.
 // Para levantar un server virtual, utilizamos npm start en la terminal.
+// Podemos instalar dependencias que queramos utilizar haciendo npm install en la terminal.
 // Podemos eliminar algunos archivos de Test que son innecesarios.
 // Los archivos index.js e index.html deben existir para que se compile el proyecto.
 
