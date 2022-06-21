@@ -3,10 +3,10 @@
   height: 300px;
   font-size: 160px;
   padding: 25px;
-  color: white; /* Asignamos color al texto que contenga */
+  color: black; /* Asignamos color al texto que contenga */
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 8px solid white;
-  margin-bottom: 15px;   
+  border: 8px solid black;
+  margin-bottom: 15px; 
 }

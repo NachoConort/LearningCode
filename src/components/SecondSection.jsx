@@ -2,6 +2,7 @@ import React from 'react';
 import Contador from './Contador';
 import { useState } from 'react';
 import '../stylesheets/SecondSection.css';
+import Boton from './Boton';
 
 function SecondSection() {
   const [numClics, setNumClics] = useState(0)
@@ -18,6 +19,14 @@ function SecondSection() {
         texto= 'Clic' 
         numClics={numClics}
         esBotonClic= {true} />
+        <Boton 
+        texto='Clic'
+        esBotonDeClic={true}
+        manejarClic={manejarClic} />
+        <Boton 
+        texto='Reiniciar'
+        esBotonDeClic={false}
+        manejarClic={restartContador} />
       </div>
     </div>
   )
