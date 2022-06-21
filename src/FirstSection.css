@@ -2,13 +2,9 @@
 * {
   margin: 0; /* Eliminamos el margin y padding que tienen por defecto algunos elementos */
   padding: 0;
-}
+} 
 
-html, body {
-  font-size: 18px; /* Seleccionamos un tamano de letra para todo el body */
-}
-
-h1 {
+.title {
   max-width: 940px; /* Asignamos un ancho maximo para el titulo */
   font-size: 2.5em; /* Le damos un tamaño a la letra relativo al contenedor */
   font-family: Lato, sans-serif; /* Tipo de letra */
@@ -17,12 +13,13 @@ h1 {
   margin: 40px 0;
 }
 
-.App {
+.first-section {
   display: flex; /* Definir la ubicacion de los elementos dentro del contenedor */
   flex-wrap: wrap; /* Si un elemento toma todo el ancho el siguiente se ubica abajo */
   align-items: center; /* Centrar los elementos verticalmente */
   justify-content: center; /* Centrar los elementos horizontalmente */
   text-align: center; /* Centrar el texto */
+  font-size: 18px; /* Seleccionamos un tamano de letra para todo el body */
 }
 
 .principal-container {

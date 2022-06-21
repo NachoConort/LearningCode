@@ -10,7 +10,7 @@ function FirstSection() {
     // Podemos usarlo cuantas veces queramos, cambiando los props para diferenciarlos.
     <div className="first-section">
       <div className='principal-container'>
-        <h1>Aprendiendo React</h1>
+        <h1 className='title'>Aprendiendo React</h1>
         <Testimonio 
           img='EmmaTest'
           name='Emma Bostian'

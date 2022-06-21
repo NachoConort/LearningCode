@@ -1,6 +1,7 @@
 import React from 'react';
 import Contador from './Contador';
 import { useState } from 'react';
+import '../stylesheets/SecondSection.css';
 
 function SecondSection() {
   const [numClics, setNumClics] = useState(0)
