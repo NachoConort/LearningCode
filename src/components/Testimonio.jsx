@@ -13,6 +13,7 @@ function Testimonio (props) {
     // Para utilizar codigo JavaScript, debemos utilizar llaves {}
     // Dentro de las llaves pasamos los props.
     // Para utilizar una imagen necesitaremos require, o podemos importarla con import.
+    // La etiqueta strong sirve para poner el texto en negrita.
     <div className='testimonio-container'> 
       <img 
         className='testimonio-img'

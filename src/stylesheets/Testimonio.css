@@ -1,22 +1,22 @@
 .testimonio-container {
-  width: 1170px;
-  height: 368px;
+  width: 1170px; /* Le damos un ancho al contenedor */
+  height: 368px; /* Le damos una altura al contenedor */
   margin: 10px 10px 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #fff;
-  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%); /* Le damos sombra al contenedor */
 }
 
 .testimonio-img {
   height: 100%;
-  width: auto;
+  width: auto; /* En este caso las imagenes tienen las mismas dimensiones, por lo que puedo utilizar auto */
 }
 
 .text-container {
-  text-align: center;
-  padding: 40px;
+  text-align: center; /* Alineamos el texto al centro */
+  padding: 40px; 
   font-family: Lato, sans-serif;
   line-height: 1.5rem;
   font-weight: 400;
@@ -34,5 +34,5 @@
 
 .text-testimonio {
   font-size: 1.1rem;
-  text-align: justify;
+  text-align: justify; /* Justificar el texto */
 }
