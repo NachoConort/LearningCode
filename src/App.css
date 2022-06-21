@@ -26,7 +26,7 @@ h1 {
 }
 
 .principal-container {
-  background-color: #5858a7; /* Seleccionamos un color de fondo para el contenedor principal */
+  background-color: white; /* Seleccionamos un color de fondo para el contenedor principal */
   min-height: 600px;
   display: flex;
   flex-wrap: wrap;
