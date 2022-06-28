@@ -4,17 +4,17 @@ button {
   font-family: Roboto, sans-serif;
   font-weight: bold;
   color: black;
-  border: 2px solid black; /* Asignamos un borde de 2px, solido y de color negro */
-  border-radius: 15px; /* Podemos hacer que las esquinas sean redondeadas */
+  border: 2px solid black;
+  border-radius: 15px;
   margin: 5px;
-  cursor: pointer; /* El cursor cambia al apoyar este mismo sobre el boton */
+  cursor: pointer;
   font-size: 35px;
 }
 
 button:hover {
-  background-color: #be5f05; /* Cambiamos el color de fondo del boton cuando el cursos este apoyado en este */
+  background-color: #be5f05; 
 }
-/* Cada boton tendra su color de fondo dependiendo de su clase */
+
 .boton-clic {
   background-color: #3377ff;
 }
