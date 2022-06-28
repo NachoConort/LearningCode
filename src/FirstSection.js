@@ -1,13 +1,8 @@
-// Importamos el archivo FirstSection.css para darle estilo al contenido del componente FirstSection.
 import './FirstSection.css';
-// Importamos el componente Testimonio.
 import Testimonio from './components/Testimonio';
 // Este es un componente, lo sabemos porque el nombre de la funcion comienza con mayuscula.
-// Conceptualmente, los componentes son como las funciones de JavaScript. 
 function FirstSection() {
   return (
-    // Dentro del div principal-container, usamos nuestro componente.
-    // Podemos usarlo cuantas veces queramos, cambiando los props para diferenciarlos.
     <div className="first-section">
       <div className='principal-container'>
         <h1 className='title'>Aprendiendo React</h1>
