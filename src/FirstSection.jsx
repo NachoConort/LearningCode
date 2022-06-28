@@ -3,6 +3,7 @@ import './FirstSection.css';
 function FirstSection() {
   return (
     <div className="first-section">
+      <div>Hola</div>
     </div>
   );
 }
