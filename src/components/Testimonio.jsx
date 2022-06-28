@@ -1,19 +1,8 @@
-// Creamos una carpeta para los componentes dentro de la carpeta src.
-// Dentro de esta carpeta creamos los componentes.
-// Importamos React.
 import React from 'react';
-// Importamos los estilos
 import '../stylesheets/Testimonio.css';
-// Creamos nuestro componente
-// Puedo pasar datos a un componente por medio de algo llamado props.
+
 function Testimonio (props) {
-  // Dentro del return estara lo que queremos mostrar.
   return (
-    // Con className asignamos una clase.
-    // Para utilizar codigo JavaScript, debemos utilizar llaves {}
-    // Dentro de las llaves pasamos los props.
-    // Para utilizar una imagen necesitaremos require, o podemos importarla con import.
-    // La etiqueta strong sirve para poner el texto en negrita.
     <div className='testimonio-container'> 
       <img 
         className='testimonio-img'
@@ -27,5 +16,5 @@ function Testimonio (props) {
     </div>
   )
 };
-// Exportamos el componente.
+
 export default Testimonio;
