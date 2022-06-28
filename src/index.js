@@ -8,6 +8,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <FirstSection />
+    <BrowserRouter>
+      <Routes>
+       <Route path='/' element={<FirstSection />}/>
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
