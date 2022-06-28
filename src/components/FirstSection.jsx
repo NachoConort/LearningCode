@@ -1,4 +1,4 @@
-import './FirstSection.css';
+import '../stylesheets/FirstSection.css';
 // Este es un componente, lo sabemos porque el nombre de la funcion comienza con mayuscula.
 function FirstSection() {
   return (
